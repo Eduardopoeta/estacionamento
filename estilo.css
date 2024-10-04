@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    display: grid;
+    margin: 0;
+}
+
+body{
+    align-items: center;
+    margin-left: 25%;
+    margin-right: 30%;
+background-color: #00275a;
+padding: 5px;
+align-items: center;
+justify-content:center;
+
+}
+
+.logo {
+    background-color: #000000;
+    mix-blend-mode: exclusion /* Para ocultar um fundo específico */
+}
+
+.fileira1{
+    grid-template-columns: repeat(5, 1fr);
+}
+
+
+button{
+    margin-left: 14%;
+    height: 35px;
+    width: 200px;
+   align-self:baseline ; 
+   border-radius: 8px;
+   border: none;
+   background-color: #ffde59;
+   cursor: pointer;
+   color: #004aad;
+   display: block;
+   
+}
+
+button:hover{
+    background-color: #004aad;
+    color: #ffde59;
+}
+
+
+h4{
+    background-color:#004aad;
+    color:#ffde59 ;
+    width: 187px;
+    height: 25px;
+    display: block;
+    cursor: pointer;
+    padding: 3%;
+    border-radius: 8px;
+    border: none;
+    position: relative;
+    margin-left: 16%;
+}
+
+h4:hover{
+
+        background-color:#ffde59;
+        color:#004aad;
+
+}
+
+.vagas img{
+    padding: 15%;
+    width: 200px;
+    height: 300px;
+    cursor: text;
+    
+}
+.vaga:hover {
+    background-color: #004aad;
+
+}
+
+.vaga.reservada {
+    background-color: red;
+   
+}
+
+.vaga.reservada:hover {
+    background-color: darkred;
+    
+}
+script{
+    color: #00275a;
+}
+h1{
+    color: aliceblue;
+    background-color:#004aad;
+    border-radius: 50px;
+    height: 40px;
+    padding: auto;
+    cursor: text;
+    margin-bottom: -70px;
+
+}
